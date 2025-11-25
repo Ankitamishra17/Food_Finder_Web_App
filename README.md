@@ -99,5 +99,5 @@ This project is open source and available under the MIT License.
 
 The project is deployed on Netlify.
 
-Netlify Deployment URL:
-👉 https://your-app-name.netlify.app
+Vercel Deployment URL:
+👉 https://food-finder-web-app.vercel.app/
