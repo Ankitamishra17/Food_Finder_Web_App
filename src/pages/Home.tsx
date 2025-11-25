@@ -4,7 +4,7 @@ import RestaurantCard from "../components/RestaurantCard";
 import ShimmerCard from "../components/ShimmerCard";
 import { restaurants } from "../data/restaurants";
 
-// ⭐ SWIPER IMPORTS
+// SWIPER IMPORTS
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper/modules";
 
@@ -50,7 +50,7 @@ const Home = ({ search }: HomeProps) => {
 
   return (
     <>
-     {/* ⭐ FULL-WIDTH SWIPER CAROUSEL ⭐ */}
+     {/*SWIPER CAROUSEL */}
 <div className="w-full mt-0 mb-4">
   <Swiper
     modules={[Pagination, Autoplay]}
@@ -74,7 +74,7 @@ const Home = ({ search }: HomeProps) => {
 </div>
 
 
-      {/* ⭐ MOBILE FILTER BAR */}
+      {/* MOBILE FILTER BAR */}
       <div className="md:hidden flex gap-3 overflow-x-auto px-4 py-3 bg-white shadow-sm sticky top-0 z-40">
         <select
           value={cuisine}
@@ -128,7 +128,7 @@ const Home = ({ search }: HomeProps) => {
       </div>
 
       <div className="flex">
-        {/* ⭐ DESKTOP SIDEBAR */}
+        {/* DESKTOP SIDEBAR */}
         <div className="hidden md:block">
           <FilterSidebar
             cuisine={cuisine}
@@ -144,11 +144,11 @@ const Home = ({ search }: HomeProps) => {
           />
         </div>
 
-        {/* ⭐ RESTAURANT GRID */}
+        {/* RESTAURANT GRID */}
                 
         <div className="flex-1 p-6">
 
-          {/* ⭐ HEADING ABOVE CARDS */}
+          {/* HEADING ABOVE CARDS */}
           <h2 className="text-2xl font-semibold mb-4 text-center">Top Restaurants</h2>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

@@ -71,9 +71,6 @@ project-root/
 └── README.md
 ```
 
-
-
-
 📦 Dependencies
 
 Here are the main libraries used:
@@ -97,7 +94,7 @@ This project is open source and available under the MIT License.
 
 🌍 Deployment
 
-The project is deployed on Netlify.
+The project is deployed on Vercel.
 
-Netlify Deployment URL:
-👉 https://your-app-name.netlify.app
+Vercel Deployment URL:
+👉 https://food-finder-web-app.vercel.app/
