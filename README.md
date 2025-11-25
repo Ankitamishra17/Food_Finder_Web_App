@@ -46,34 +46,33 @@ npm run dev
 npm run build
 
 ## 📁 Project Structure
-
+```
 project-root/
 ├── public/
-│ └── screenshots/
+│   ├── images/
 ├── src/
-│ ├── components/
-│ │ ├── Navbar.tsx
-│ │ ├── FilterSidebar.tsx
-│ │ ├── Footer.tsx
-│ │ ├── RestaurantCard.tsx
-│ │ └── ShimmerCard.tsx
-│ ├── pages/
-│ │ ├── Home.tsx
-│ │ └── RestaurantDetails.tsx
-│ ├── data/
-│ │ └── restaurants.ts
-│ ├── App.tsx
-│ ├── main.tsx
-│ └── index.css
+│   ├── components/
+│   │   ├── Navbar.tsx
+│   │   ├── FilterSidebar.tsx
+│   │   ├── Footer.tsx
+│   │   ├── RestaurantCard.tsx
+│   │   └── ShimmerCard.tsx
+│   ├── pages/
+│   │   ├── Home.tsx
+│   │   └── RestaurantDetails.tsx
+│   ├── data/
+│   │   └── restaurants.ts
+│   ├── App.tsx
+│   ├── main.tsx
+│   └── index.css
 ├── package.json
 ├── tailwind.config.js
 ├── tsconfig.json
 └── README.md
+```
 
-📸 Screenshots
 
-![Home Page](public/screenshots/homepage.png)
-![Restaurant Listing](public/screenshots/listing.png)
+
 
 📦 Dependencies
 
