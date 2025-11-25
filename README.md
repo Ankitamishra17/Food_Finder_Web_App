@@ -50,7 +50,6 @@ npm run build
 project-root/
 ├── public/
 │   ├── images/
-│   └── screenshots/
 ├── src/
 │   ├── components/
 │   │   ├── Navbar.tsx
@@ -72,9 +71,7 @@ project-root/
 └── README.md
 ```
 
-📸 Screenshots
 
-![Home Page](public/screenshots/homepage.png)
 
 
 📦 Dependencies
