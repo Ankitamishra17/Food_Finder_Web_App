@@ -74,7 +74,7 @@ project-root/
 📦 Dependencies
 
 Here are the main libraries used:
-
+```
 "dependencies": {
 "react": "^19.2.0",
 "react-dom": "^19.2.0",
@@ -82,6 +82,7 @@ Here are the main libraries used:
 "react-router-dom": "^7.9.6",
 "swiper": "^12.0.3"
 }
+```
 
 🤝 Contributing
 
