@@ -49,6 +49,7 @@ npm run build
 
 project-root/
 ├── public/
+
 │ └── screenshots/
 ├── src/
 │ ├── components/
@@ -73,7 +74,7 @@ project-root/
 📸 Screenshots
 
 ![Home Page](public/screenshots/homepage.png)
-![Restaurant Listing](public/screenshots/listing.png)
+
 
 📦 Dependencies
 
