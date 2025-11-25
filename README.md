@@ -46,7 +46,7 @@ npm run dev
 npm run build
 
 ## 📁 Project Structure
-
+```
 project-root/
 ├── public/
 │   ├── images/
@@ -70,7 +70,7 @@ project-root/
 ├── tailwind.config.js
 ├── tsconfig.json
 └── README.md
-
+```
 
 📸 Screenshots
 
